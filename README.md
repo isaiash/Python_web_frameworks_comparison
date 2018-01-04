@@ -42,3 +42,18 @@ Would you begin with Tornado or Django?
 >Its totally different branches of technology, full cycle web publication framework as Django, actually you can use it for many types of web projects but it can fit very tough, and it have a heavy infrastructure from-the-box with high inertness. If you want to make something like magazine site or photo-blog site its perfect. But the more you have from the box with framework the more foreign code and solutions details you have to handle or fight with.
 
 >And tornado as fast simple asynchronous and flexible framework. Its better for web apps, especially very responsive web-apps with rich interfaces, but it requires significantly better coding skills.
+
+## Conclusión
+Utilizar **Tornado** si:
+
+* El proyecto necesita mantener una cantidad alta de usuarios conectados activamente.
+* El proyecto necesita ser eficiente en tiempos de respuesta y espacio.
+* El proyecto utiliza bases de datos noSQL.
+
+Utilizar **Django** si:
+
+* El proyecto necesita ser terminado en menos tiempo:
+  * Menos tiempo aprendiendo y testeando asincronía.
+  * Tiene un REST oficial.
+  * Más cantidad de material ready-to-use.
+  * Más cantidad de soluciones (stackOverflow).
